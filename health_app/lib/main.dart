@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:health_app/health_connect/example.dart';
 import 'main_scaffold.dart' ;
 void main() {
-  runApp(const MainApp());
+  void main() => runApp(HealthApp());
 }
 
 class MainApp extends StatelessWidget {

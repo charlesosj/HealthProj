@@ -10,6 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   health: ^9.0.1
+  permission_handler: ^11.3.0
+  cupertino_icons: ^1.0.2
+
 
 
 dev_dependencies:
@@ -17,5 +20,11 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
+
 flutter:
   uses-material-design: true
+  plugin:
+    platforms:
+      android:
+        package: cachet.plugins.health
+        pluginClass: HealthPlugin
